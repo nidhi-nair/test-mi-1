@@ -1,0 +1,21 @@
+{
+  "packageUUID": "65ede5a7e808e600076e2ca8",
+  "moduleUUID": "65ede5b3e808e600076e2cb0",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "version": "0.0.1",
+    "name": "QueryModule1_1",
+    "contextType": "PAGE",
+    "pageId": "Page1 Copy Copy",
+    "inputs": {
+      "limit": "10"
+    },
+    "jsonPathKeys": [],
+    "isValid": true,
+    "invalids": [],
+    "userPermissions": []
+  },
+  "id": "Page1 Copy Copy_QueryModule1_1",
+  "deleted": false,
+  "gitSyncId": "65ef62f452981b5812a9773b_65ef630352981b5812a977a3"
+}
