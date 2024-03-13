@@ -3,22 +3,25 @@
   "moduleUUID": "65ede5b3e808e600076e2cb0",
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
-    "version": "0.0.3",
+    "version": "0.0.2",
     "name": "QueryModule1_1",
     "contextType": "PAGE",
     "pageId": "Page1",
     "inputs": {
       "limit": "10"
     },
-    "jsonPathKeys": [],
-    "isValid": false,
-    "invalids": [
-      "Module instance does not have a valid module reference in the workspace. Please import package \"Untitled Package 1\" to your current workspace to resolve this issue."
-    ],
-    "invalidState": {
-      "packageName": "Untitled Package 1",
-      "moduleName": "QueryModule1"
+    "moduleInputs": {
+      "pegcytiwlb": {
+        "id": "pegcytiwlb",
+        "label": "limit",
+        "propertyName": "inputs.limit",
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "10"
+      }
     },
+    "jsonPathKeys": [],
+    "isValid": true,
+    "invalids": [],
     "userPermissions": []
   },
   "id": "Page1_QueryModule1_1",
