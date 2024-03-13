@@ -3,12 +3,21 @@
   "moduleUUID": "65ede5b3e808e600076e2cb0",
   "type": "QUERY_MODULE",
   "unpublishedModuleInstance": {
-    "version": "0.0.3",
+    "version": "0.0.2",
     "name": "QueryModule1_1",
     "contextType": "PAGE",
     "pageId": "Page1",
     "inputs": {
       "limit": "10"
+    },
+    "moduleInputs": {
+      "pegcytiwlb": {
+        "id": "pegcytiwlb",
+        "label": "limit",
+        "propertyName": "inputs.limit",
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "10"
+      }
     },
     "jsonPathKeys": [],
     "isValid": true,
